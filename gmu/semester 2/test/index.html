@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Home Page</title>
+
+<style type="text/css">
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#home
+{
+  display: block;
+  width: 100px;
+  height: 30px;
+  background: url("images/home.png") no-repeat 0 0;
+  
+}
+
+#home:hover
+{ 
+    display: block;
+  width: 100px;
+  height: 30px;
+  background: url("images/home_selected.png") no-repeat 0 0;
+}
+#contact
+{
+  display: block;
+  width: 100px;
+  height: 30px;
+  background: url("images/contact.png") no-repeat 0 0;
+  
+}
+
+#contact:hover
+{ 
+    display: block;
+  width: 100px;
+  height: 30px;
+  background: url("images/contact_selected.png") no-repeat 0 0;
+}
+
+</style>
+</head>
+
+
+<body style = "background-color:Beige">
+
+
+
+<img src="images/logo.png" alt="a blue and red m and r logo" width="100" height="100" class="center" />
+<h1>
+Home Page
+</h1>
+<hr />
+<p> <a id="home" href="#" title="Home"></a></p>
+<p><a href="#about_me">About Me</a> </p>
+<p><a href="#projects">Projects</a> </p>
+<p> <a href="#work_experience">Work Experience</a></p>
+<p> <a id="contact" href="contact.html" title="Contact"></a></p>
+<hr />
+<h2 id= "about_me">
+About Me
+</h2>
+<p>
+I'm just an average college student for the most part. I'm pretty interested in the field I study, but I'm always dipping my toes into random practices that look interesting (as you'll clearly see in my projects.) I've done things from building computers, making databases, setting up networks, etc. to other random non related IT tasks such as changing out all my car fluids and worn parts, repaving my driveway, welding together a steel table, plumbing, etc. If it's some random (non-expensive) task that people have videos of on youtube, then there's a good chance I've tried it with varying success.</p>
+<h2 id= "projects">
+Projects
+</h2>
+<p>
+the projects I work from vary from topic to topic depending on what I'm feeling during that time of the year and what I have on hand, but here’s a few examples with some explanations.
+</p>
+<h3>
+Creating a network filter on VMware
+</h3>
+<p>
+over the summer a few years back, my brother needed a test environment for a network filter his work needed, but since most of my old computers were either nonfunctional or didn't have ethernet, i just made a few VMs on VMware and connected them together in a mock network environment where there'd be 1 normal computer and 1 network filter computer.
+</p>
+
+<h3>
+Creating an emulated PS/2 keyboard
+</h3>
+<p>
+a few months back I found an old dell server and decided to power it up so I could mess around on an old hard drive that only used ultra-ATA and to see if the card with that port still worked. The only issue is that I lost all my old ps/2 mice and keyboards and the only USB to PS/2 adapter I had was for mice only, so I decided to just create a fake one with an Arduino. I looked through some old documentations on the signals ps/2 keyboards put and out emulated that with the Arduino and finally got to the bios. I was able to figure out that the ultra-ATA card worked and I plugged in the hard drive, but it turned out it was completely encrypted, so it turned out the keyboard was useless anyways.
+</p>
+
+<h3>
+Bleeding the brakes on my car
+</h3>
+<p>
+a few weeks back at Walmart I spotted some dot 3 brake fluid for 6 dollars and figured "I should probably change my car's brake fluid since the last owner probably never did." So, I bought some and got some tubing from Lowes and got to work. I ended up spilling a bunch of ancient brake fluid on my old rims and on my newly fixed driveway when opening the bleeder valves on the calipers and I think some air got in the system, but at least I don't need to worry about having the pistons or master cylinder getting messed up any time soon (hopefully).
+</p>
+
+
+<h2 id= "work_experience">
+Work Experience
+</h2>
+<p>
+my work experience ranges a wide variety, from electrical work, to programming, helping students in high level coding classes, all the way to helping community college students with learning disabilities. With that being said, I still have a relatively limited knowledge in the professional field given the competitive nature of earning a job in my field (assuming you want to get paid), but that hasn't stopped me from trying my best in keeping my skills sharp and learning new things.
+</p>
+<hr />
+<h3>
+Disclaimer
+</h3>
+<p>
+this is a fictitious company and is developed as an education project.
+</p>
+</body>
+</html>

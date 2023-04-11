@@ -1,0 +1,3 @@
+import java.util.HashSet;
+public class Test { 
+   public static void main(String[] args) { Book Book1 = new Book(10023); Book Book2 = new Book(10053); Book Book3 = new Book(10088); Book Book4 = new Book(10099); Book Book5 = new Book(12000); HashSet<Book> bookSet = new HashSet<>(); bookSet.add(Book1); bookSet.add(Book2); bookSet.add(Book3); bookSet.add(Book4); bookSet.add(Book5); System.out.println(bookSet.size()); System.out.println(bookSet.contains(new Book(12000))); System.out.println(bookSet.remove( new Book(10099))); System.out.println(bookSet.size()); } }

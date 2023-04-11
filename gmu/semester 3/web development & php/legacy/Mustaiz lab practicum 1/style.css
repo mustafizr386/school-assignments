@@ -1,0 +1,24 @@
+.outer
+{
+	height: 40px;
+    width: 100%;
+	background-color: CadetBlue;
+
+}
+.middle
+{
+	
+    width: 100%;
+	background-color: CornflowerBlue;
+	
+}
+.calculate
+{
+	margin-left: 20%;
+	background-color: CadetBlue;
+
+}
+.os
+{
+	color: white;
+}
