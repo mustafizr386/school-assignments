@@ -1,0 +1,19 @@
+body {
+  background-color: lightblue;
+}
+h1{
+	color: green;
+}
+
+h3{
+	color: orange;
+}
+
+.links{
+	font-size: 110%;
+}
+
+.imagetable{
+	font-size: 180%;
+	color: green;
+}
